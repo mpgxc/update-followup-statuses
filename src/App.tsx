@@ -64,7 +64,7 @@ export const App = () => {
     Notification.requestPermission();
 
     const eventSource = new EventSource(
-      `https://${subdomain}.uzzepedidos.online//sse`,
+      `https://${subdomain}.uzzepedidos.online/sse`,
       {
         withCredentials: false,
       }
